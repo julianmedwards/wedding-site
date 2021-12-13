@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Spectral', serif;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.supertitle {
+    margin-top: 8px;
+    margin-bottom: 45px;
+}
+
+.title {
+    margin-bottom: 55px;
+}
+
+.subtitle {
+    margin-bottom: 40px;
+}
+
+.button-spc {
+    margin-top: 58px;
+}
+
+.showcase {
+    margin-top: 105px;
+    margin-bottom: 145px;
+    padding-top: 145px;
+    padding-bottom: 145px;
+}
+
+.showcase-title {
+    margin-top: 35px;
+}
+
+.section {
+    margin-bottom: 140px;
+}
