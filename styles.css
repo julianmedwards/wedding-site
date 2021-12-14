@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+/* Colors */
+
+.pink-bg {
+    background-color: #f6d0cb;
+}
+
 /* Text Spacing */
 
 h1,
@@ -29,23 +35,22 @@ a {
 
 .supertitle {
     color: #ef525b;
-    margin-top: 8px;
-    margin-bottom: 45px;
+    margin: 8px 0 45px 0;
 }
 
 .title {
-    margin-bottom: 55px;
+    margin: 0 0 55px 0;
     font-size: 3.5rem;
 }
 
 .subtitle {
-    margin-bottom: 40px;
+    margin: 0 0 40px 0;
     font-size: 1.5rem;
     font-weight: 500;
 }
 
 .button-spc {
-    margin-top: 58px;
+    margin: 58px 0 0 0;
 }
 
 /* Images & Logos */
@@ -93,7 +98,6 @@ nav {
     position: fixed;
     height: 140px;
     width: 100%;
-    background-color: #f6d0cb;
     transition: 0.3s;
 }
 
