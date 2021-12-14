@@ -35,10 +35,13 @@ a {
 
 .title {
     margin-bottom: 55px;
+    font-size: 3.5rem;
 }
 
 .subtitle {
     margin-bottom: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .button-spc {
@@ -48,6 +51,18 @@ a {
 /* Images & Logos */
 
 /* Section Spacing */
+
+/* 
+    Section types:
+    1. Nav
+    2. 50% 50%, right aligned text 150px
+    3. Centered Text
+    4. Even spaced cards with centered subtitles
+    5. Even spaced cards with 40px indented subtitles
+    6. 60/40 img/text split, left or right aligned 150px
+    7. 32/36/32% split no margins
+    8. 310px height footer - 140px top padding
+*/
 
 .section {
     margin-bottom: 140px;
@@ -65,7 +80,11 @@ a {
 }
 
 #container {
-    padding-top: 120px;
+    padding-top: 140px;
+}
+
+.right-align {
+    width: 40%;
 }
 
 /* Navbar */
