@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* Text Spacing */
+
 h1,
 h2,
 h3,
@@ -14,10 +16,15 @@ h6 {
     line-height: 1.3;
 }
 
-p {
+p,
+a {
     font-family: 'Poppins', sans-serif;
     color: rgba(18, 41, 71, 0.8);
     line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
 }
 
 .supertitle {
@@ -38,6 +45,14 @@ p {
     margin-top: 58px;
 }
 
+/* Images & Logos */
+
+/* Section Spacing */
+
+.section {
+    margin-bottom: 140px;
+}
+
 .showcase {
     margin-top: 105px;
     margin-bottom: 145px;
@@ -49,6 +64,26 @@ p {
     margin-top: 35px;
 }
 
-.section {
-    margin-bottom: 140px;
+#container {
+    padding-top: 120px;
+}
+
+/* Navbar */
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    background-color: #f6d0cb;
+    transition: 0.3s;
+}
+
+nav:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+
+nav ul {
+    display: inline-block;
 }
