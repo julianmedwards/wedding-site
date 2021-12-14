@@ -72,8 +72,7 @@ a {
 
 nav {
     position: fixed;
-    top: 0;
-    height: 120px;
+    height: 140px;
     width: 100%;
     background-color: #f6d0cb;
     transition: 0.3s;
@@ -84,6 +83,29 @@ nav:hover {
     transition: 0.3s;
 }
 
-nav ul {
-    display: inline-block;
+nav a {
+    margin: 17.5px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+#left-links {
+    vertical-align: top;
+    position: absolute;
+    margin: 57px 0;
+    left: 17.5px;
+}
+
+#right-links {
+    vertical-align: top;
+    position: absolute;
+    margin: 57px 0;
+    right: 17.5px;
+}
+
+#nav-logo {
+    position: absolute;
+    padding-top: 22px;
+    height: 95px;
+    width: 100%;
 }
