@@ -10,13 +10,18 @@ h5,
 h6 {
     font-family: 'Spectral', serif;
     font-weight: 500;
+    color: #122947;
+    line-height: 1.3;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
+    color: rgba(18, 41, 71, 0.8);
+    line-height: 1.6;
 }
 
 .supertitle {
+    color: #ef525b;
     margin-top: 8px;
     margin-bottom: 45px;
 }
