@@ -22,6 +22,14 @@ h6 {
     line-height: 1.3;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 p,
 a {
     font-family: 'Poppins', sans-serif;
@@ -35,42 +43,67 @@ a {
 
 .supertitle {
     color: #ef525b;
-    margin: 8px 0 45px 0;
+    margin: 8px 0 1rem 0;
+    font-size: 12px;
 }
 
 .title {
-    margin: 0 0 55px 0;
-    font-size: 3.5rem;
+    margin: 0 0 1rem 0;
 }
 
 .subtitle {
-    margin: 0 0 40px 0;
-    font-size: 1.5rem;
-    font-weight: 500;
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
 }
 
 .button-spc {
-    margin: 58px 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 /* Images & Logos */
+
+.site-logo {
+    height: 80px;
+    width: 100%;
+}
+
+#landing-img {
+    background-image: url('img/landing-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    max-width: 100%;
+    height: 910px;
+}
 
 /* Section Spacing */
 
 /* 
     Section types:
     1. Nav
-    2. 50% 50%, right aligned text 150px
+    2. 50% 50%, left aligned text 150px (10%)
     3. Centered Text
     4. Even spaced cards with centered subtitles
     5. Even spaced cards with 40px indented subtitles
-    6. 60/40 img/text split, left or right aligned 150px
+    6. 60/40 img/text split, left or right aligned 150px (10%)
     7. 32/36/32% split no margins
     8. 310px height footer - 140px top padding
 */
 
 .section {
+    overflow: hidden;
     margin-bottom: 140px;
+}
+
+.left-body {
+    display: inline-block;
+    margin-top: 340px;
+    margin-left: 10%;
+    max-width: 30%;
+}
+
+.right-body {
+    margin-right: 10%;
 }
 
 .showcase {
@@ -84,9 +117,9 @@ a {
     margin-top: 35px;
 }
 
-#container {
+/* #container {
     padding-top: 140px;
-}
+} */
 
 .right-align {
     width: 40%;
@@ -96,7 +129,7 @@ a {
 
 nav {
     position: fixed;
-    height: 140px;
+    height: 120px;
     width: 100%;
     transition: 0.3s;
 }
@@ -107,28 +140,29 @@ nav:hover {
 }
 
 nav a {
-    margin: 17.5px;
-    font-weight: 500;
+    margin: 12px;
+    font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
 
 #left-links {
     vertical-align: top;
     position: absolute;
-    margin: 57px 0;
-    left: 17.5px;
+    z-index: 1;
+    margin: 49px 0;
+    left: 10px;
 }
 
 #right-links {
     vertical-align: top;
     position: absolute;
-    margin: 57px 0;
-    right: 17.5px;
+    z-index: 1;
+    margin: 49px 0;
+    right: 10px;
 }
 
 #nav-logo {
     position: absolute;
+    z-index: 0;
     padding-top: 22px;
-    height: 95px;
-    width: 100%;
 }
